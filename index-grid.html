@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - Grid - </title>
+
+    <style>
+        /* Estilos generles */
+        body {
+            background-color: yellow;
+        }
+
+        .div1 {
+            background-color: yellow;
+            border: solid black 1px;
+            width: 600px;
+            height: 600px;
+        }
+
+        .div2 {
+            background-color: red;
+            color: #fff;
+            border: solid black 1px;
+            width: 100px;
+            height: 100px;
+        }
+
+        /* Estilo para centrar los div's */
+        .div-center {
+            display: grid;
+            place-items: center;
+        }
+    </style>
+
+</head>
+
+<body class="div-center">
+
+    <div class="div1 div-center">
+        <div class="div2 div-center">
+            - CENTRAR -
+        </div>
+    </div>
+
+</body>
+
+</html>
